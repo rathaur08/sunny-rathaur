@@ -344,7 +344,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
+  background: url(https://d3tfanr7troppj.cloudfront.net/static_files/images/000/006/398/original/banner.png?1737537009) no-repeat top center;
   background-position: center;
   background-size: cover; }
   .home_banner_area .banner_inner {
