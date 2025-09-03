@@ -383,7 +383,7 @@ button:focus {
               display: none; } }
       .home_banner_area .banner_inner .banner_content h1 {
         margin-top: 20px;
-        font-size: 70px;
+        font-size: 60px;
         line-height: 60px;
         margin-bottom: 25px; }
         @media (max-width: 1024px) {
@@ -419,7 +419,7 @@ button:focus {
         min-height: 350px; } }
     @media (max-width: 991px) {
       .banner_area .banner_inner {
-        background: #ffd96f;
+        background: #fc883e;
         width: 100%; } }
     .banner_area .banner_inner .banner_content {
       margin-left: 50px;
@@ -2522,7 +2522,7 @@ h6 {
   .single-brand-item .d-table-cell {
     vertical-align: middle; }
   .single-brand-item img {
-    max-width: 80px;
+    max-width: 120px;
     margin: 0 auto;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
@@ -2569,7 +2569,7 @@ h6 {
       -ms-flex-align: center;
       align-items: center; } }
   .client-info .lage {
-    color: #ffd96f;
+    color: #fc883e;
     font-family: "Rubik", sans-serif;
     font-size: 100px;
     font-weight: 700;
@@ -2594,7 +2594,7 @@ h6 {
     .call-now h3 {
       font-size: 17px; } }
   .call-now p {
-    color: #ffd96f;
+    color: #fc883e;
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 5px; }
@@ -2631,7 +2631,7 @@ h6 {
       -o-transition: all 0.4s ease 0s;
       transition: all 0.4s ease 0s; }
       .portfolio_area .filters ul li:hover, .portfolio_area .filters ul li.active {
-        color: #ffd96f; }
+        color: #fc883e; }
       @media (max-width: 767px) {
         .portfolio_area .filters ul li {
           margin-right: 20px; } }
@@ -2748,7 +2748,7 @@ h6 {
     .testimonial_area .owl-carousel .owl-dots .owl-dot.active {
       height: 12px;
       width: 12px;
-      background: #ffd96f; }
+      background: #fc883e; }
   @media (max-width: 991px) {
     .testimonial_area .owl-carousel .owl-dots {
       display: none !important; } }
@@ -3291,13 +3291,13 @@ h6 {
           .footer_area .footer_social a i {
             font-size: 25px; } }
         .footer_area .footer_social a i:hover {
-          color: #ffd96f; }
+          color: #fc883e; }
   .footer_area .footer_bottom {
     text-align: center; }
     .footer_area .footer_bottom p {
       margin-bottom: 0; }
     .footer_area .footer_bottom a {
-      color: #ffd96f; }
+      color: #fc883e; }
 
 /* End Footer Area css
 ============================================================================================ */
