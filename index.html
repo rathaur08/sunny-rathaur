@@ -75,13 +75,16 @@
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html">About</a>
+                  <a class="nav-link" href="#about">About</a>
+                  <!-- <a class="nav-link" href="about.html">About</a> -->
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="services.html">Services</a>
+                  <a class="nav-link" href="#services">Services</a>
+                  <!-- <a class="nav-link" href="services.html">Services</a> -->
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
+                  <!-- <a class="nav-link" href="portfolio.html">Portfolio</a> -->
                 </li>
                 <!-- <li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -100,7 +103,8 @@
 								</ul>
 							</li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
+                  <!-- <a class="nav-link" href="contact.html">Contact</a> -->
                 </li>
               </ul>
             </div>
@@ -155,7 +159,7 @@
     <!--================ Start About Us Area =================-->
     <section class="about_area section_gap">
       <div class="container">
-        <div class="row justify-content-end align-items-center">
+        <div class="row justify-content-end align-items-center" id="about">
           <div class="col-lg-5">
             <div class="about_img">
               <img class="" src="img/about-us.png" alt="" />
@@ -293,7 +297,7 @@
     <!--================ End Brand Area =================-->
 
     <!--================ Start Features Area =================-->
-    <section class="features_area">
+    <section class="features_area" id="services">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
@@ -838,8 +842,117 @@
     </div>
     <!--================ End Testimonial Area =================-->
 
+    <!--================Contact Area =================-->
+    <section class="contact_area section_gaps" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <div class="main_title">
+              <h2>Contact Us</h2>
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="contact_info">
+              <div class="info_item">
+                <i class="lnr lnr-home"></i>
+                <h6>New Delhi, India</h6>
+                <p>Location</p>
+              </div>
+              <div class="info_item">
+                <i class="lnr lnr-phone-handset"></i>
+                <h6><a href="tel: +91 8266881450">+91 82 6688 1450</a></h6>
+                <p>Mon to Fri 9am to 6 pm</p>
+              </div>
+              <div class="info_item">
+                <i class="lnr lnr-envelope"></i>
+                <h6>
+                  <a href="mailto:sunnyrathaur2444@gmail.com"
+                    >sunnyrathaur2444@gmail.com</a
+                  >
+                </h6>
+                <p>Send us your query anytime!</p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-lg-9">
+            <form
+              class="row contact_form"
+              action="contact_process.php"
+              method="post"
+              id="contactForm"
+              novalidate="novalidate"
+            >
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Enter email address"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    name="subject"
+                    placeholder="Enter Subject"
+                  />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    id="message"
+                    rows="1"
+                    placeholder="Enter Message"
+                  ></textarea>
+                </div>
+              </div>
+              <div class="col-md-12 text-right">
+                <button type="submit" value="submit" class="primary_btn">
+                  <span>Send Message</span>
+                </button>
+              </div>
+            </form>
+          </div> -->
+        </div>
+        <!-- <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13"
+                data-info="New Delhi , India" data-mlat="40.701083" data-mlon="-74.1522848">
+            </div> -->
+        <div class="mapBox">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.54004883842!2d77.04417347155065!3d28.52725273882469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1735453547566!5m2!1sen!2sin"
+            width="1110"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!--================Contact Area =================-->
+
     <!--================ Start Newsletter Area =================-->
-    <section class="newsletter_area">
+    <!-- <section class="newsletter_area section_gaps">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-12">
@@ -885,7 +998,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!--================ End Newsletter Area =================-->
 
     <!--================Footer Area =================-->
@@ -920,10 +1033,10 @@
                 <a href="https://github.com/rathaur08" target="_blank"
                   ><i class="fa fa-github"></i
                 ></a>
-                <a href="https://github.com/rathaur08" target="_blank"
+                <a href="https://www.linkedin.com/in/rathaur08/" target="_blank"
                   ><i class="fa fa-youtube"></i
                 ></a>
-                <a href="https://github.com/rathaur08" target="_blank"
+                <a href="https://www.linkedin.com/in/rathaur08/" target="_blank"
                   ><i class="fa fa-facebook"></i
                 ></a>
               </div>
@@ -937,7 +1050,7 @@
             <script>
               document.write(new Date().getFullYear());
             </script>
-            All rights reserved 
+            All rights reserved
             <i class="fa fa-heart-o" aria-hidden="true"></i> by
             <a href="https://www.linkedin.com/in/rathaur08/" target="_blank"
               >rathaur08</a
